@@ -32,6 +32,13 @@ print(f"The multiplication of the two numbers is: {mul}") # This will print: The
 div=x/y
 print(f"The division of the two numbers is: {div}\n") # This will print: The division of the two numbers is: <value of div>
 
+if x > y:
+    print(f"{x} is greater than {y}") # This will print: <value of x> is greater than <value of y>
+elif x < y:
+    print(f"{x} is less than {y}") # This will print: <value of x> is less than <value of y>
+else:
+    print(f"{x} is equal to {y}") # This will print: <value of x> is equal to <value of y>
+    
 # CHALLENGE 2:
 print("CHALLENGE 2:")
 # Write below this comment a Python program that ask the user for their name and age, and then print a message saying "Hello <name>, you are <age> years old."
