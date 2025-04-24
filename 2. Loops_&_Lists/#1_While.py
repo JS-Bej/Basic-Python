@@ -8,7 +8,7 @@
 
 # ```python
 # while condition:
-#     # code to be executed
+#     # code to be executed (notice the blank space indentation, which is important in Python to define the block of code)
 # ```
 
 while a != 1:
@@ -28,3 +28,11 @@ if pin == 1234:
 
 # The loop will continue until the user enters the correct PIN (1234).
 # Once the correct PIN is entered, the program will print "PIN accepted!" and exit the loop.
+
+# There's also a `break` statement that can be used to exit a loop prematurely:
+a=0
+while a < 10:
+    a += 1
+    if a == 5:
+        break # Exit the loop when a is equal to 5
+    print(a) # Output: 1, 2, 3, 4

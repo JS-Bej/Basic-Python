@@ -1,5 +1,5 @@
 
-# Excercises:
+# Challenges:
 
 # 1. Calculate the BMI of a person that weights 77 kilograms and is 181 centimeters tall.
 # First we need to convert the height from centimeters to meters. 181cm = 1.81m.
