@@ -30,3 +30,10 @@ print(vowels[0:3])  # Output: ['a', 'e', 'i']
 # We can also omit the `start` and `end` indexes to slice the entire list. For example, if we want to access all the elements in the list, we can do:
 
 print(vowels[:])  # Output: ['a', 'e', 'i', 'o', 'u']
+
+# CHALLENGE 1:
+print("\n-----------------CHALLENGE-----------------\n")
+# Given the following list:
+letters = ['o', 'r', 'o', 'c', 'c', 'a', 'n']
+# Print the word "raccoon" using 3 indexes and 4 negative indexes in a single print statement without blank spaces:
+
