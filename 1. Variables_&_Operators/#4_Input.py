@@ -16,11 +16,13 @@ print("Hello "+user) # This will print: Hello <current value of user>
 
 x=int(input("Enter the first number: ")) # This will print: Enter the value of the first number:
 y=int(input("Enter the second number: ")) # This will print: Enter the value of the second number:
+
 # We are ready to use operators now!
 sum=x+y
 # We can not use the + operator to concatenate strings and numbers, so we need to convert the result to a string first.
 # This is done using the str() function, like this: print("The sum..."+str(sum))
 # But we can use the f-string to do this in a more elegant way.
+
 print(f"The sum of the two numbers is: {sum}") # This will print: The sum of the two numbers is: <value of sum>
 
 sub=x-y

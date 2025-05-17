@@ -34,7 +34,7 @@ for i in range(2, 10, 2):
 # Challenge 1:
 # Write a program that asks the user for the number of rows a pyramid of stars should have.
 # Then, print a pyramid of stars with that number of rows using a for loop.
-# Finally, print (This piramid has <number of rows> rows).
+# Finally, print (This pyramid has <number of rows> rows).
 # For example:
 
 # If the user enters 4, the output should be:

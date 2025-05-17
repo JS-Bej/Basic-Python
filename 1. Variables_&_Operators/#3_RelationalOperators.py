@@ -16,7 +16,7 @@
 if 5 > 3:
     print("5 is greater than 3") # This will print: 5 is greater than 3
 
-# Now the else statement is used to execute a block of code if the condition is false.
+# Now, the else statement is used to execute a block of code if the previous condition is false.
 
 if 5 == 3:
     print("5 is equal to 3")
@@ -25,10 +25,10 @@ else:
 
 # We can also use the elif statement to check multiple conditions. The elif statement is used to check another condition if the previous condition is false.
 
-if 5 < 3:
-    print("5 is less than 3")
+if 5 == 3:
+    print("5 is equal to 3")
 elif 5 > 3:
     print("5 is greater than 3") # This will print: 5 is greater than 3
 else:
-    print("5 is equal to 3")
+    print("5 is less than 3")
     

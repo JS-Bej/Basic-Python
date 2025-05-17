@@ -1,8 +1,12 @@
 
-# This is a simple Python script that prints "Hello World!" to the console.
+# Let's start with the print function right away:
+# The print function is used to print text to the console.
+
 # This way you can use the print function in Python.
-print("Hello World!")
-print('Hello World, again!')
+print("Hello World!") # This is a simple Python script that prints "Hello World!" to the console.
+# Using another print function will print the message in a new line:
+print("Hello World, Again!") # This will print: Hello World, Again!
+
 # If you want to print something in a different line in the same print function, you can use the \n character:
 print("This is the first line.\nThis is the second line.")
 # Btw this is a comment. It will not be executed.
@@ -23,10 +27,11 @@ print(name) # This will print: John Doe
 print("Name of the 1st person: "+name) # This will print: Name of the 1st person: John Doe
 print(name,number,number2,verified) # This will print: John Doe 10 4.5 True
 
-# We know that the variable name contains the string "Jhon Doe", but what if...
-name=5
-number="This is not a number."
-print(name,number) # This will print: 5 This is not a number.
+# We know that the variable name contains the string "John Doe", but what if...
 
-# This is beacuase Python is dynamically typed, which means that you don’t need to declare a type for your variables.
+name=7.2 # Now the variable name contains a float value.
+number="This is not a number."
+print(name,number) # This will print: 7.2 This is not a number.
+
+# This is because Python is dynamically typed, which means that you don’t need to declare a type for your variables.
 # A variable can hold any type of data: string, number, list, etc.
