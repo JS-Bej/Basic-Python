@@ -42,7 +42,7 @@ else:
     print(f"{x} is equal to {y}") # This will print: <value of x> is equal to <value of y>
     
 # CHALLENGE 2:
-print("CHALLENGE 2:")
+print("\n----------------CHALLENGE----------------\n")
 # Write below this comment a Python program that ask the user for their name and age, and then print a message saying "Hello <name>, you are <age> years old."
 
 

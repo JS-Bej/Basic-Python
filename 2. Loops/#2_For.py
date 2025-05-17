@@ -22,9 +22,9 @@ for i in range(3):
 a=0
 for i in range(10):
     a += 1
+    print(f"Number: {i}") # Output: Number: 0, Number: 1, Number: 2, Number: 3, Number: 4
     if a == 5:
         break
-    print(f"Number: {i}") # Output: Number: 0, Number: 1, Number: 2, Number: 3, Number: 4
 
 # We can also set the starting number and the increment of the range() function:
 for i in range(2, 10, 2):
@@ -32,6 +32,7 @@ for i in range(2, 10, 2):
 # The first number is the starting number, the second number is the stopping number, and the third number is the increment.
 
 # Challenge 1:
+print("\n--------CHALLENGE--------\n")
 # Write a program that asks the user for the number of rows a pyramid of stars should have.
 # Then, print a pyramid of stars with that number of rows using a for loop.
 # Finally, print (This pyramid has <number of rows> rows).

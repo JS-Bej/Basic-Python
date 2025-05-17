@@ -5,6 +5,8 @@
 
 score = 0           # score is 0
 score = 4 + 3       # score is now 7
+score = score + 3   # score is now 10 (This line executes: <Current value of score> + 3)
+score -= 3          # score is now 7  (This line executes: <Current value of score> - 3)
 score = 4 - 3       # score is now 1
 score = 4 * 3       # score is now 12
 score = 4 ** 3      # score is now 64 (The ** operator is the exponentiation operator as in 4^3)
@@ -13,8 +15,8 @@ score = 4 % 3       # score is now 1 (The % operator returns the remainder of th
 
 print(score)        # Output: 1
 
-
 # CHALLENGE 1:
+print ("\n-----CHALLENGE-----\n")
 # The body mass index (BMI) was created by a Belgian mathematician in the 1850s and it's used by health and nutrition professionals to estimate human body fat in certain populations.
 # It is computed by taking an individual's weight (mass) in kilograms and dividing it by the square of their height in meters. (BMI=weight/height^2).
 

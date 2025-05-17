@@ -10,7 +10,6 @@ height = 1.81 # m
 bmi = wheight / (height ** 2)
 print(bmi) # Output: 23.5 <---Solution
 
-
 # 2. Write a Python program that ask the user for their name and age, and then print a message saying "Hello <name>, you are <age> years old.":
 
 name = input("Enter your name: ")
