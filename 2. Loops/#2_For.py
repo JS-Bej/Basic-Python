@@ -32,7 +32,7 @@ for i in range(2, 10, 2):
 # The first number is the starting number, the second number is the stopping number, and the third number is the increment.
 
 # Challenge 1:
-print("\n--------CHALLENGE--------\n")
+print("\n-----------------CHALLENGE-----------------\n")
 # Write a program that asks the user for the number of rows a pyramid of stars should have.
 # Then, print a pyramid of stars with that number of rows using a for loop.
 # Finally, print (This pyramid has <number of rows> rows).
