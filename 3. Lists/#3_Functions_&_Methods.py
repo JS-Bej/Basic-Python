@@ -1,5 +1,5 @@
 
-# Just like the print function, we can find some more functions in python, let's see three of these that are focused on lists:
+# Just like the print function, we can find some more functions in python; Let's see three of these that are focused on lists:
 
 # The len() function returns the total length of a list.
 # The max() function returns the maximum value in a list.
