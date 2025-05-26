@@ -9,8 +9,14 @@ print("Hello World, Again!") # This will print: Hello World, Again!
 
 # If you want to print something in a different line in the same print function, you can use the \n character:
 print("This is the first line.\nThis is the second line.")
+
 # Btw this is a comment. It will not be executed.
-# You can use the '#' symbol to add comments in your code.
+# You can use the '#' symbol at the beginning of a line to make it a comment.
+'''
+Or you can use triple quotes to make a multiple-line comment.
+This is a multiple-line comment.
+Just use triple quotes at the beginning and end of the comment.
+'''
 
 # ----------------------------------------------VARIABLES--------------------------------------------
 # Now this is how you declare variables (notice that you don't have to declare the type of variable):

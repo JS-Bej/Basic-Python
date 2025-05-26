@@ -1,7 +1,9 @@
 
-# An operator is a symbol that performs an operation on one or more operands.
-# Python has several types of operators: +, -, *, /, %, **, and many more.
-# As you can see, the operators are the same as in math. Let's see how they work:
+'''
+ An operator is a symbol that performs an operation on one or more operands.
+ Python has several types of operators: +, -, *, /, %, **, and many more.
+ As you can see, the operators are the same as in math. Let's see how they work:
+'''
 
 score = 0           # score is 0
 score = 4 + 3       # score is now 7

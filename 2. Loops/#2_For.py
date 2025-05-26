@@ -1,5 +1,5 @@
 
-# For is also a loop, but it is used to iterate over a sequence (like a list)
+# For is also a loop, but it is used the most for iterating over a sequence (like a list)
 # The syntax of a `for` loop is as follows:
 
 # ```python
@@ -7,10 +7,12 @@
 #     # code to be executed (notice the identation)
 # ```
 
-# In this case, item is the variable that takes the value of each element in the sequence.
-# and sequence is the collection of items to iterate over.
-# We can use the range() function to generate a sequence of numbers.
-# The range() function generates a sequence of numbers, starting from 0, and increments by 1, and stops before a specified number.
+'''
+ In this case, item is the variable that takes the value of each element in the sequence.
+ and sequence is the collection of items to iterate over.
+ We can use the range() function to generate a sequence of numbers.
+ The range() function generates a sequence of numbers, starting from 0, and increments by 1, and stops before a specified number.
+'''
 
 # Here's some examples with the `for` loop using the range() function:
 for i in range(5):
