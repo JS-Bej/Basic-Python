@@ -7,15 +7,23 @@
  We've already seen some built-in functions in Python, like `print()`, `sort()`, `max()`, and `min()`.
  But we can also define our own functions using the `def` keyword.
 '''
+'''
+The syntax for defining a function is as follows:
 
-# The syntax for defining a function is as follows: `def function_name(parameters):
-#                                                     |  function_body`
+`def function_name(parameters):
+    function_body
+    return value (optional)`
 
-def greet(name): # This is a function that takes a name as a parameter
-    print(f"Hello, {name}!") # This is the function body, which contains the code to be executed when the function is called
+Why is the return value optional? Every function has a return value, but if you don't specify it, the function value will be `None` by default.
+'''
+
+def greet(name,age):
+    greeting=f"Hello, {name}! You are {age} years old." # This is the function body, which contains the code to be executed when the function is called
+    return greeting # This is the return value, which is the output of the function.
 
 # Now, how can we call this function? Well, just like we've already did with the built-in functions:
-greet("Bob") # Output: Hello, Bob!
+message=greet("Bob", 20)
+print(message)  # Output: Hello, Bob! You are 20 years old.
 
 '''
 There are three popular ways to name functions (Not just in python): UpperCamelCase, CamelCase, and snake_case:
