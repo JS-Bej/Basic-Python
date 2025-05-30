@@ -46,3 +46,7 @@ print("\n-----------------CHALLENGE-----------------\n")
 # * * *
 # * * * *
 # This pyramid has 4 rows.
+
+
+
+# You can see the solution in the Solutions.py file, compare it with your results. 🗺️

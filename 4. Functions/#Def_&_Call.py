@@ -34,3 +34,15 @@ snake_case: This is the most common convention for functions in Python, where wo
 '''
 
 # If you want to check out all the built-in functions in Python, you can look at the official documentation: https://docs.python.org/3/library/functions.html
+
+# CHALLENGE 1:
+print("\n-----------------CHALLENGE-----------------\n")
+# Given the following list:
+food=['🍔','🍕','🌮','🌭','🌯']
+# Create a menu() function that prints the food items in the list and its number in the list ('#1 🍔, #2 🍕, etc.').
+# Then, create an order() function that takes a number as an argument and prints the food item at that number in the list.
+# Let know the user if their selection is invalid (You may want to take a look at your notes).
+
+
+
+# You can see the solution in the Solutions.py file, compare it with your results. 🗺️

@@ -43,3 +43,6 @@ print("\n-----------------CHALLENGE-----------------\n")
 letters = ['o', 'r', 'o', 'c', 'c', 'a', 'n']
 # Print the word "raccoon" using 3 indexes and 4 negative indexes in a single print statement without commas or blank spaces:
 
+
+
+# You can see the solution in the Solutions.py file, compare it with your results. 🗺️
