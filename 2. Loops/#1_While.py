@@ -17,7 +17,7 @@ while a != 1:
     a = int(input("Enter a number (1 to exit): "))
     # The loop will continue until the user enters 1.
 
-# Here's an example of a `while` loop from Codédex:
+# Here's an example of a `while` loop from Codédex, a learning platform for coding:
 print('\nBANK OF CODÉDEX')
 
 pin = int(input('Enter your PIN: '))
