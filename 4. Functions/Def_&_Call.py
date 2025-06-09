@@ -7,6 +7,7 @@
  We've already seen some built-in functions in Python, like `print()`, `sort()`, `max()`, and `min()`.
  But we can also define our own functions using the `def` keyword.
 '''
+
 '''
 The syntax for defining a function is as follows:
 
@@ -24,6 +25,12 @@ def greet(name,age):
 # Now, how can we call this function? Well, just like we've already did with the built-in functions:
 message=greet("Bob", 20)
 print(message)  # Output: Hello, Bob! You are 20 years old.
+
+# We can also define functions without parameters:
+def say_hello():
+    return "Hello, World!"
+
+print(say_hello())  # Output: Hello, World!
 
 '''
 There are three popular ways to name functions (Not just in python): UpperCamelCase, CamelCase, and snake_case:

@@ -2,9 +2,9 @@ import random
 
 print ("--------------Terminal Game--------------")
 print ("You are alone in the dark, you dont see anything...")
-print ("Suddenly you wake up. It appears that you are fighting a monster and something hit you so hard you forgot your name.")
+print ("Suddenly you wake up. It appears that you are fighting a monster and something hit you so hard you lost consciousness.")
 user=input("What was your name? ")
-print (f"\n{user}: Oh, yeah...")
+print (f"Alright, {user}, let's start the game!")
 print ("You see a monster in front of you, it is very ugly and scary. He's impatiently telling you that is your turn, he can't move.")
 userhp=50
 enemyhp=100
