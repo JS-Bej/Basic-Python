@@ -1,5 +1,5 @@
 
-# For is also a loop, but it is used the most for iterating over a sequence (like a list)
+# `for` is also a loop, but it is used the most for iterating over a sequence (like a list)
 # The syntax of a `for` loop is as follows:
 
 # ```python

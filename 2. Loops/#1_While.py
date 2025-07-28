@@ -1,5 +1,4 @@
 '''
- What's a loop?
  A loop is a programming construct that allows you to repeat a block of code multiple times until a certain condition is met.
  There are two main types of loops in Python: `while` loops, `for` loops and `do while` loops.
 
